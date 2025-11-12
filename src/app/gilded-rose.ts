@@ -36,6 +36,24 @@ export class GildedRose {
       return item;
     }
 
+    if (item.name === 'Backstage passes to a TAFKAL80ETC concert') {
+      item.sellIn -= 1;
+      item.quality += 1;
+      if (item.sellIn < 10) {
+        item.quality += 1;
+      }
+      if (item.sellIn < 5) {
+        item.quality += 1;
+      }
+      if (item.sellIn < 0) {
+        item.quality = 0;
+      }
+      if (item.quality > 50) {
+        item.quality = 50;
+      }
+      return item;
+    }
+
     if (item.name != 'Aged Brie' && item.name != 'Backstage passes to a TAFKAL80ETC concert') {
       if (item.quality > 0) {
         if (item.name != 'Sulfuras, Hand of Ragnaros') {
