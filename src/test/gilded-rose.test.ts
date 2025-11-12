@@ -130,6 +130,17 @@ describe("Documented requirements", () => {
         expect(gr_updated[0].sellIn).toBe(-1);
         expect(gr_updated[0].quality).toBe(0);
     });
+    test("Conjured items degarde twice as fast", () => {
+        const gr_initial = new GildedRose([
+            new Item("Conjured Mana Cake", 10, 20),
+            new Item("Conjured Mana Cake", 0, 6),
+        ]);
+        const gr_updated = gr_initial.updateQuality();
+        expect(gr_updated[0].sellIn).toBe(9);
+        expect(gr_updated[0].quality).toBe(18);
+        expect(gr_updated[1].sellIn).toBe(-1);
+        expect(gr_updated[1].quality).toBe(2);
+    });
 });
 
 type dayItem = {

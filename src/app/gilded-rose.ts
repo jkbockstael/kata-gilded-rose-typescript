@@ -2,6 +2,7 @@ enum ItemType {
   AGING,
   LEGENDARY,
   PASS,
+  CONJURED,
   REGULAR
 }
 
@@ -59,6 +60,18 @@ export class GildedRose {
     return item;
   }
 
+  updateConjuredItem(item: Item): Item {
+    item.sellIn -= 1;
+    item.quality -=
+      (item.sellIn >= 0)
+      ? 2
+      : 4;
+    if (item.quality < 0) {
+      item.quality = 0;
+    }
+    return item;
+  }
+
   updateRegularItem(item: Item): Item {
     item.sellIn -= 1;
     item.quality -=
@@ -72,6 +85,9 @@ export class GildedRose {
   }
 
   itemType(item: Item): ItemType {
+    if (item.name.startsWith("Conjured")) {
+      return ItemType.CONJURED;
+    }
     switch (item.name) {
       case "Aged Brie":
         return ItemType.AGING;
@@ -92,6 +108,8 @@ export class GildedRose {
         return this.updateLegendaryItem(item);
       case ItemType.PASS:
         return this.updateBackstagePassItem(item);
+      case ItemType.CONJURED:
+        return this.updateConjuredItem(item);
       case ItemType.REGULAR:
         return this.updateRegularItem(item);
     }
