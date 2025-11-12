@@ -1,0 +1,373 @@
+[
+[
+{ "name": "+5 Dexterity Vest", "sellin": 10, "quality": 20 },
+{ "name": "Aged Brie", "sellin": 2, "quality": 0 },
+{ "name": "Elixir of the Mongoose", "sellin": 5, "quality": 7 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 15, "quality": 20 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 10, "quality": 49 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 5, "quality": 49 },
+{ "name": "Conjured Mana Cake", "sellin": 3, "quality": 6 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 9, "quality": 19 },
+{ "name": "Aged Brie", "sellin": 1, "quality": 1 },
+{ "name": "Elixir of the Mongoose", "sellin": 4, "quality": 6 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 14, "quality": 21 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 9, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 4, "quality": 50 },
+{ "name": "Conjured Mana Cake", "sellin": 2, "quality": 5 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 8, "quality": 18 },
+{ "name": "Aged Brie", "sellin": 0, "quality": 2 },
+{ "name": "Elixir of the Mongoose", "sellin": 3, "quality": 5 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 13, "quality": 22 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 8, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 3, "quality": 50 },
+{ "name": "Conjured Mana Cake", "sellin": 1, "quality": 4 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 7, "quality": 17 },
+{ "name": "Aged Brie", "sellin": -1, "quality": 4 },
+{ "name": "Elixir of the Mongoose", "sellin": 2, "quality": 4 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 12, "quality": 23 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 7, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 2, "quality": 50 },
+{ "name": "Conjured Mana Cake", "sellin": 0, "quality": 3 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 6, "quality": 16 },
+{ "name": "Aged Brie", "sellin": -2, "quality": 6 },
+{ "name": "Elixir of the Mongoose", "sellin": 1, "quality": 3 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 11, "quality": 24 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 6, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 1, "quality": 50 },
+{ "name": "Conjured Mana Cake", "sellin": -1, "quality": 1 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 5, "quality": 15 },
+{ "name": "Aged Brie", "sellin": -3, "quality": 8 },
+{ "name": "Elixir of the Mongoose", "sellin": 0, "quality": 2 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 10, "quality": 25 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 5, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 0, "quality": 50 },
+{ "name": "Conjured Mana Cake", "sellin": -2, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 4, "quality": 14 },
+{ "name": "Aged Brie", "sellin": -4, "quality": 10 },
+{ "name": "Elixir of the Mongoose", "sellin": -1, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 9, "quality": 27 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 4, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -1, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -3, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 3, "quality": 13 },
+{ "name": "Aged Brie", "sellin": -5, "quality": 12 },
+{ "name": "Elixir of the Mongoose", "sellin": -2, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 8, "quality": 29 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 3, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -2, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -4, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 2, "quality": 12 },
+{ "name": "Aged Brie", "sellin": -6, "quality": 14 },
+{ "name": "Elixir of the Mongoose", "sellin": -3, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 7, "quality": 31 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 2, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -3, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -5, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 1, "quality": 11 },
+{ "name": "Aged Brie", "sellin": -7, "quality": 16 },
+{ "name": "Elixir of the Mongoose", "sellin": -4, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 6, "quality": 33 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 1, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -4, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -6, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": 0, "quality": 10 },
+{ "name": "Aged Brie", "sellin": -8, "quality": 18 },
+{ "name": "Elixir of the Mongoose", "sellin": -5, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 5, "quality": 35 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 0, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -5, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -7, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -1, "quality": 8 },
+{ "name": "Aged Brie", "sellin": -9, "quality": 20 },
+{ "name": "Elixir of the Mongoose", "sellin": -6, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 4, "quality": 38 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -1, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -6, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -8, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -2, "quality": 6 },
+{ "name": "Aged Brie", "sellin": -10, "quality": 22 },
+{ "name": "Elixir of the Mongoose", "sellin": -7, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 3, "quality": 41 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -2, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -7, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -9, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -3, "quality": 4 },
+{ "name": "Aged Brie", "sellin": -11, "quality": 24 },
+{ "name": "Elixir of the Mongoose", "sellin": -8, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 2, "quality": 44 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -3, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -8, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -10, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -4, "quality": 2 },
+{ "name": "Aged Brie", "sellin": -12, "quality": 26 },
+{ "name": "Elixir of the Mongoose", "sellin": -9, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 1, "quality": 47 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -4, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -9, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -11, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -5, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -13, "quality": 28 },
+{ "name": "Elixir of the Mongoose", "sellin": -10, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": 0, "quality": 50 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -5, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -10, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -12, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -6, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -14, "quality": 30 },
+{ "name": "Elixir of the Mongoose", "sellin": -11, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -1, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -6, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -11, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -13, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -7, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -15, "quality": 32 },
+{ "name": "Elixir of the Mongoose", "sellin": -12, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -2, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -7, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -12, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -14, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -8, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -16, "quality": 34 },
+{ "name": "Elixir of the Mongoose", "sellin": -13, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -3, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -8, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -13, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -15, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -9, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -17, "quality": 36 },
+{ "name": "Elixir of the Mongoose", "sellin": -14, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -4, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -9, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -14, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -16, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -10, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -18, "quality": 38 },
+{ "name": "Elixir of the Mongoose", "sellin": -15, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -5, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -10, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -15, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -17, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -11, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -19, "quality": 40 },
+{ "name": "Elixir of the Mongoose", "sellin": -16, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -6, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -11, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -16, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -18, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -12, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -20, "quality": 42 },
+{ "name": "Elixir of the Mongoose", "sellin": -17, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -7, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -12, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -17, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -19, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -13, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -21, "quality": 44 },
+{ "name": "Elixir of the Mongoose", "sellin": -18, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -8, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -13, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -18, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -20, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -14, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -22, "quality": 46 },
+{ "name": "Elixir of the Mongoose", "sellin": -19, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -9, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -14, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -19, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -21, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -15, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -23, "quality": 48 },
+{ "name": "Elixir of the Mongoose", "sellin": -20, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -10, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -15, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -20, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -22, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -16, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -24, "quality": 50 },
+{ "name": "Elixir of the Mongoose", "sellin": -21, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -11, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -16, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -21, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -23, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -17, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -25, "quality": 50 },
+{ "name": "Elixir of the Mongoose", "sellin": -22, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -12, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -17, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -22, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -24, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -18, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -26, "quality": 50 },
+{ "name": "Elixir of the Mongoose", "sellin": -23, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -13, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -18, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -23, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -25, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -19, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -27, "quality": 50 },
+{ "name": "Elixir of the Mongoose", "sellin": -24, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -14, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -19, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -24, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -26, "quality": 0 }
+],
+
+[
+{ "name": "+5 Dexterity Vest", "sellin": -20, "quality": 0 },
+{ "name": "Aged Brie", "sellin": -28, "quality": 50 },
+{ "name": "Elixir of the Mongoose", "sellin": -25, "quality": 0 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": 0, "quality": 80 },
+{ "name": "Sulfuras, Hand of Ragnaros", "sellin": -1, "quality": 80 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -15, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -20, "quality": 0 },
+{ "name": "Backstage passes to a TAFKAL80ETC concert", "sellin": -25, "quality": 0 },
+{ "name": "Conjured Mana Cake", "sellin": -27, "quality": 0 }
+]
+]

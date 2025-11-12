@@ -1,5 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { Item, GildedRose } from "../app/gilded-rose";
+import thirty_days from "./30-days.json" with { type: "json" };
 
 describe("Documented requirements", () => {
     test("The updateQuality returns an array of Items", () => {
@@ -128,5 +129,36 @@ describe("Documented requirements", () => {
         const gr_updated = gr_initial.updateQuality();
         expect(gr_updated[0].sellIn).toBe(-1);
         expect(gr_updated[0].quality).toBe(0);
+    });
+});
+
+type dayItem = {
+    name: string,
+    sellin: number,
+    quality: number
+}
+const dayToInventory = (day: Array<dayItem>) => day.map(
+    item => new Item(item.name, item.sellin, item.quality));
+
+const inventoriesEqual = (day: Array<dayItem>, output: Array<Item>) =>
+    day.length === output.length
+    && day
+        .map((item, index) =>
+            item.name === output[index].name
+            && item.sellin === output[index].sellIn
+            && item.quality === output[index].quality)
+        .reduce((a: boolean, b: boolean) => a && b, true);
+
+describe("30 Days validation test", () => {
+    test("30 days validation test", () => {
+        let gr_current = new GildedRose(dayToInventory(thirty_days[0]));
+        let gr_updated;
+        for (let day_inventory of thirty_days.slice(1)) {
+            console.log(day_inventory); //DEBUG
+            gr_updated = gr_current.updateQuality();
+            console.log(gr_updated); // DEBUG
+            expect(inventoriesEqual(day_inventory, gr_updated)).toBe(true);
+            gr_current = new GildedRose(dayToInventory(day_inventory));
+        }
     });
 });
