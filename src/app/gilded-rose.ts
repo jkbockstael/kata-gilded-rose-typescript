@@ -1,3 +1,10 @@
+enum ItemType {
+  AGING,
+  LEGENDARY,
+  PASS,
+  REGULAR
+}
+
 export class Item {
   name: string;
   sellIn: number;
@@ -64,20 +71,30 @@ export class GildedRose {
     return item;
   }
 
+  itemType(item: Item): ItemType {
+    switch (item.name) {
+      case "Aged Brie":
+        return ItemType.AGING;
+      case "Sulfuras, Hand of Ragnaros":
+        return ItemType.LEGENDARY;
+      case "Backstage passes to a TAFKAL80ETC concert":
+        return ItemType.PASS;
+      default:
+        return ItemType.REGULAR;
+    }
+  }
+
   updateItemQuality(item: Item): Item {
-    if (item.name === 'Aged Brie') {
-      return this.updateAgingItem(item);
+    switch (this.itemType(item)) {
+      case ItemType.AGING:
+        return this.updateAgingItem(item);
+      case ItemType.LEGENDARY:
+        return this.updateLegendaryItem(item);
+      case ItemType.PASS:
+        return this.updateBackstagePassItem(item);
+      case ItemType.REGULAR:
+        return this.updateRegularItem(item);
     }
-
-    if (item.name === 'Sulfuras, Hand of Ragnaros') {
-      return this.updateLegendaryItem(item);
-    }
-
-    if (item.name === 'Backstage passes to a TAFKAL80ETC concert') {
-      return this.updateBackstagePassItem(item);
-    }
-
-    return this.updateRegularItem(item);
   }
 
   updateQuality() {
