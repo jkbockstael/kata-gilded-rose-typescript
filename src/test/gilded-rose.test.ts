@@ -154,9 +154,7 @@ describe("30 Days validation test", () => {
         let gr_current = new GildedRose(dayToInventory(thirty_days[0]));
         let gr_updated;
         for (let day_inventory of thirty_days.slice(1)) {
-            console.log(day_inventory); //DEBUG
             gr_updated = gr_current.updateQuality();
-            console.log(gr_updated); // DEBUG
             expect(inventoriesEqual(day_inventory, gr_updated)).toBe(true);
             gr_current = new GildedRose(dayToInventory(day_inventory));
         }
