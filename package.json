@@ -1,0 +1,30 @@
+{
+  "name": "kata-gilded-rose-typescript",
+  "version": "1.0.0",
+  "description": "The Gilded Rose refactoring kata, in TypeScript",
+  "homepage": "https://github.com/jkbockstael/kata-gilded-rose-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/jkbockstael/kata-gilded-rose-typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkbockstael/kata-gilded-rose-typescript.git"
+  },
+  "license": "MIT",
+  "author": "Jean-Karim Bockstael <jkb@jkbockstael.be>",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.8",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.8"
+  }
+}
