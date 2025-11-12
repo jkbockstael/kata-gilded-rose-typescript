@@ -50,6 +50,17 @@ describe("Documented requirements", () => {
         expect(gr_updated[0].sellIn).toBe(9);
         expect(gr_updated[0].quality).toBe(21);
     });
+    test("Aged Brie increases in quality faster when past due date", () => {
+        const gr_initial = new GildedRose([
+            new Item("Aged Brie", 0, 20),
+            new Item("Aged Brie", -1, 50),
+        ]);
+        const gr_updated = gr_initial.updateQuality();
+        expect(gr_updated[0].sellIn).toBe(-1);
+        expect(gr_updated[0].quality).toBe(22);
+        expect(gr_updated[1].sellIn).toBe(-2);
+        expect(gr_updated[1].quality).toBe(50);
+    });
     test("The quality of an item is never above 50", () => {
         const gr_initial = new GildedRose([
             new Item("Aged Brie", 10, 50),
@@ -66,6 +77,23 @@ describe("Documented requirements", () => {
         expect(gr_updated[0].sellIn).toBe(10);
         expect(gr_updated[0].quality).toBe(80);
     });
+    test("legendary items don't decrease in quality", () => {
+        const gr_initial = new GildedRose([
+            new Item("Sulfuras, Hand of Ragnaros", -1, 80),
+            new Item("Sulfuras, Hand of Ragnaros", -1, -1),
+        ]);
+        const gr_updated = gr_initial.updateQuality();
+        expect(gr_updated[0].quality).toBe(80);
+        expect(gr_updated[1].quality).toBe(-1);
+    });
+    test("Backstage passes increase quality normally up to 11 days before the due date", () => {
+        const gr_initial = new GildedRose([
+            new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20),
+        ]);
+        const gr_updated = gr_initial.updateQuality();
+        expect(gr_updated[0].sellIn).toBe(14);
+        expect(gr_updated[0].quality).toBe(21);
+    });
     test("Backstage passes increase quality by 2 starting ten days before the due date", () => {
         const gr_initial = new GildedRose([
             new Item("Backstage passes to a TAFKAL80ETC concert", 10, 20),
@@ -81,6 +109,17 @@ describe("Documented requirements", () => {
         const gr_updated = gr_initial.updateQuality();
         expect(gr_updated[0].sellIn).toBe(4);
         expect(gr_updated[0].quality).toBe(23);
+    });
+    test("Backstage passes will not go higher than 50 in quality", () => {
+        const gr_initial = new GildedRose([
+            new Item("Backstage passes to a TAFKAL80ETC concert", 10, 49),
+            new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
+        ]);
+        const gr_updated = gr_initial.updateQuality();
+        expect(gr_updated[0].sellIn).toBe(9);
+        expect(gr_updated[0].quality).toBe(50);
+        expect(gr_updated[1].sellIn).toBe(4);
+        expect(gr_updated[1].quality).toBe(50);
     });
     test("Backstage passes are worthless after the due date", () => {
         const gr_initial = new GildedRose([
