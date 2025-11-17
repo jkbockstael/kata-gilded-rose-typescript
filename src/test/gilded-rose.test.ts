@@ -167,7 +167,6 @@ describe("30 Days validation test", () => {
         for (let day_inventory of thirty_days.slice(1)) {
             gr_updated = gr_current.updateQuality();
             expect(inventoriesEqual(day_inventory, gr_updated)).toBe(true);
-            gr_current = new GildedRose(dayToInventory(day_inventory));
         }
     });
 });
